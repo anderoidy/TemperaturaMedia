@@ -6,9 +6,9 @@ public class ExercicioMediaTemperatura {
 
         Scanner pegandoDoUsuario = new Scanner(System.in);
         List<Double> temperatura = new ArrayList<>();
-
+        System.out.println("Calculo da temperatura media dos ultimos 6 meses");
         for (int i = 1; i< 6;i++){
-            System.out.println("Entre com o valor do Mes %d " +i);
+            System.out.println("Entre com o valor do Mes " +i);
             double recebendoDoUsuario = pegandoDoUsuario.nextDouble();
             temperatura.add(recebendoDoUsuario);
         }
